@@ -14,7 +14,10 @@ Amarillo menu: #ffcc21ff */
 }
 
 .logo{
+    display: flex;
+    align-items: center;
     flex: 1;
+    margin-left: 10px;
 }
 
 .logoMenu{
@@ -40,3 +43,54 @@ Amarillo menu: #ffcc21ff */
 .informacionMenu a:first-child{
     margin-left: 0;
 }
+
+.contenido{
+    display: flex;
+    height: 100vh;
+}
+
+.imgenContenido{
+    flex: 1;
+    display: flex; /* agregando este elemento se ajusta la misma altura en relación al otro bloque */
+    /* height: 20vh; */
+    width: 70vh;
+    object-fit: cover;
+    /* background-image: url(../Imagenes/Заставка\ пчелы.jpg); */
+}
+
+.informacionContenido{
+    background-color: #ffcc21ff;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    background-color: black;
+    color: #ffcc21ff;
+    height: 100px;
+    margin: 0;
+    display: flex;
+}
+
+.infoFooter{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.logoFooter{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .logo{
+    /* Me permite que las proporciones tablecidas sean según el alto determinado y fi contain ajusta la proporcionalidad del elemento */
+    max-height: 80%;
+    max-width: 80%;
+    object-fit: contain;
+}
+
