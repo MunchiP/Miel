@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    font-family: "Playwrite DE Grund", cursive;
+}
+
+/* Tonalidades de colores
+Amarillo menu: #ffcc21ff */
+
+.menu{
+    height: 100px;
+    width: auto;
+    background-color: black;
+    display: flex;  
+}
+
+.logo{
+    flex: 1;
+}
+
+.logoMenu{
+    height: 70px;
+}
+
+.informacionMenu{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.informacionMenu a{
+    color: #ffcc21ff;
+    text-decoration: none;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacionMenu a:first-child{
+    margin-left: 0;
+}
